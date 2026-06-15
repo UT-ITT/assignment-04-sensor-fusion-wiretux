@@ -3,6 +3,10 @@
 
 # Perspective Transformation
 usage ```python image_extractor.py [-i input_path] [-o output_path] [-r width height]```
+- If a parameter is missing the programm refuses to start
+- Alternative to the shortcuts you can use --input,--output and --resolution
+- After the programm started you can select the 4 points in a clockwise circle
+- You can press s to save the image when you selected the corners or q to quit
 
 # Ar Game
 ## How to play
