@@ -166,7 +166,7 @@ def on_key_press(symbol, modifiers):
     if symbol == pyglet.window.key.DOWN or symbol == pyglet.window.key.LEFT:
         alpha = alpha - 0.1
 
-def reset():
+def reset(is_pressed):
     global alpha, prediction
     alpha = 0
     prediction = np.array([0.0, 0.0])
