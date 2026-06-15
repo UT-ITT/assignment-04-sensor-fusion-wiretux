@@ -14,3 +14,4 @@ usage ```python image_extractor.py [-i input_path] [-o output_path] [-r width he
 - If you ever want to stop just press q
   
 # Sensor Fusion
+The choice of the alpha weight determines the extent to which data from the accelerometer or the camera tracking influence the prediction. If the weight is set too low, the high latency of the camera will cause jitter and delays in the prediction. If, on the other hand, it is set too high, the tracking prediction deviates too much from the actual values and sometimes even goes completely out of bounce. With an optimal setting, therefore, the advantages of the accelerometer’s low latency and the camera’s more accurate prediction can be combined.
